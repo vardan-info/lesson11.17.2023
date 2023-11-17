@@ -1,0 +1,21 @@
+7.ունեք թվերի զանգվածի բոլոր ինդեքսները
+public class Main {
+    public static void main(String[] args) {
+        int[] array = new int[7];
+        array[0] = 5;
+        array[1] = 15;
+        array[2] = 210;
+        array[3] = 200;
+        array[4] = 300;
+        array[5] = 300;
+        array[6] = 300;
+      int index =0;
+        for (int i = 0; i < array.length; i++) {
+
+        System.out.println( i);
+
+
+        }
+
+    }
+}
