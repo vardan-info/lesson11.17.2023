@@ -1,0 +1,22 @@
+8.ունենք թվերի զանգված տպել զանգվածի բոլոր էլեմենտների գումարը:
+public class Main
+{
+    public static void main(String[] args) {
+        int []array = new int[7];//xndir4
+        array [0] = 5;
+        array [1] = 1;
+        array [2] = 2;
+        array [3] = 3;
+        array [4] = 4;
+        array [5] = 3;
+        array [6] = 1;
+        int sum =0;
+        for (int i=0; i<array.length;i++){
+            sum+=array[i];
+
+
+        }
+        System.out.println(sum);
+
+    }
+}19
