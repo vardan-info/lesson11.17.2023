@@ -1,0 +1,13 @@
+5.տպել 50-ից 100 թվերի կենտ թվերը:
+public class Main {
+    public static void main(String[] args) {
+        for(int  i =50; i <100;i++){
+            if(i% 2!=0 ){
+                System.out.println(i);
+            }
+
+        }
+    }
+
+
+}
